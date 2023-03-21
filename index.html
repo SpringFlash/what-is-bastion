@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Бастион</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="welcome">
+      <div class="container">
+        <h1 class="welcome-header">Что же такое<br /><b>Бастион?</b></h1>
+        <div class="welcome-man">
+          <img src="assets/man.png" alt="Man" />
+        </div>
+      </div>
+    </section>
+
+    <section class="chat-gpt">
+      <div class="container">
+        <h2>Общение с Chat GPT о Бастионе</h2>
+        <div class="gpt-messages"></div>
+      </div>
+    </section>
+
+    <template id="chatgpt-msg">
+      <div class="gpt-msg">
+        <p class="question"></p>
+        <p class="answer"></p>
+      </div>
+    </template>
+
+    <script type="text/javascript" src="questions.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
